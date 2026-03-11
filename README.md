@@ -1,16 +1,13 @@
 # BookMyStayApp
 
-# CLASS - RoomSearchService
-# Use Case 4: Room Search & Availability Check
+# CLASS - Reservation
+
+# Use Case 5: Booking Request (FIFO)
 
 # Description:
-# This class provides search functionality
-# for guests to view available rooms.
-
-# It reads room availability from inventory
-# and room details from Room objects.
-
-# No inventory mutation or booking logic
-# is performed in this class.
-# @version 4.0
- 
+# This class represents a booking request
+# made by a guest.
+# At this stage, a reservation only captures
+# intent, not confirmation or room allocation.
+# @version 5.0
+  
