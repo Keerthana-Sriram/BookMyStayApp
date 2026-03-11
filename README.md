@@ -1,17 +1,16 @@
 # BookMyStayApp
 
-# CLASS - RoomInventory
-
-# Use Case 3: Centralized Room Inventory Management
+# CLASS - RoomSearchService
+# Use Case 4: Room Search & Availability Check
 
 # Description:
-# This class acts as the single source of truth
-# for room availability in the hotel.
+# This class provides search functionality
+# for guests to view available rooms.
 
-# Room pricing and characteristics are obtained
+# It reads room availability from inventory
+# and room details from Room objects.
 
-# from Room objects, not duplicated here.
-# This avoids multiple sources of truth and
-# keeps responsibilities clearly separated.
-
-# @version 3.1
+# No inventory mutation or booking logic
+# is performed in this class.
+# @version 4.0
+ 
