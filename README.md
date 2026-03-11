@@ -1,13 +1,18 @@
 # BookMyStayApp
 
-# CLASS - Reservation
+# CLASS - RoomAllocationService
 
-# Use Case 5: Booking Request (FIFO)
+# Use Case 6: Reservation Confirmation & Room Allocation
 
 # Description:
-# This class represents a booking request
-# made by a guest.
-# At this stage, a reservation only captures
-# intent, not confirmation or room allocation.
-# @version 5.0
+# This class is responsible for confirming
+# booking requests and assigning rooms.
+
+# It ensures:
+# Each room ID is unique
+# Inventory is updated immediately
+# No room is double-booked
+
+# @version 6.0
+
   
