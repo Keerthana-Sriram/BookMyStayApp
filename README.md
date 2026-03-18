@@ -1,12 +1,14 @@
 # BookMyStayApp
 
-# Use Case 10: Booking Cancellation & Inventory Rollback
+# * Use Case 11: Concurrent Booking Simulation
 
 # Description:
-# This class demonstrates how confirmed bookings can be cancelled safely.
+# This class simulates multiple users attempting to book rooms at the same time.
 
-# Inventory is restored and rollback history is maintained.
+# It highlights race conditions and demonstrates how synchronization prevents inconsistent allocations.
 
 
-# @version 10.0
+# @version 11.0
+
+
 
