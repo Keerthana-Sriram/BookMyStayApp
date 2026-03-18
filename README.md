@@ -1,12 +1,12 @@
 # BookMyStayApp
 
-# * Use Case 9: Error Handling & Validation
+# Use Case 10: Booking Cancellation & Inventory Rollback
+
 # Description:
-# This class demonstrates how user input is validated before booking is processed.
+# This class demonstrates how confirmed bookings can be cancelled safely.
 
-# The system:
-# Accepts user input
-# Validates input centrally
-# Handles errors gracefully
+# Inventory is restored and rollback history is maintained.
 
-# @version 9.0
+
+# @version 10.0
+
