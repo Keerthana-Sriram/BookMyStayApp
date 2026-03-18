@@ -1,5 +1,17 @@
 # BookMyStayApp
 
+ feature/UC7-AddOnServiceSelection
+# Use Case 7: Add-On Service Selection
+
+# Description:
+
+# This class demonstrates how optional services can be attached to a confirmed booking.
+
+# Services are added after room allocation and do not affect inventory.
+
+# @version 7.0
+   
+=======
 # CLASS - RoomAllocationService
 
 # Use Case 6: Reservation Confirmation & Room Allocation
@@ -16,3 +28,4 @@
 # @version 6.0
 
   
+ dev
