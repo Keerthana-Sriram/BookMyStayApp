@@ -1,14 +1,14 @@
 # BookMyStayApp
 
-# * Use Case 11: Concurrent Booking Simulation
+# Use Case 12: Data Persistence & System Recovery
 
 # Description:
-# This class simulates multiple users attempting to book rooms at the same time.
+# This class is responsible for persisting critical system state to a plain text file.
 
-# It highlights race conditions and demonstrates how synchronization prevents inconsistent allocations.
+# It supports:
+# - Saving room inventory state
+# - Restoring inventory on system startup
 
+# No database or serialization framework is used in this use case.
 
-# @version 11.0
-
-
-
+# @version 12.0
