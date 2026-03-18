@@ -1,12 +1,12 @@
 # BookMyStayApp
 
-# Use Case 8: Booking History & Reporting
-
+# * Use Case 9: Error Handling & Validation
 # Description:
-# This class demonstrates how
-# confirmed bookings are stored
-# and reported.
+# This class demonstrates how user input is validated before booking is processed.
 
-# The system maintains an ordered
-# audit trail of reservations.
-# @version 8.0
+# The system:
+# Accepts user input
+# Validates input centrally
+# Handles errors gracefully
+
+# @version 9.0
