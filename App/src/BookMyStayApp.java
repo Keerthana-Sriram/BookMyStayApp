@@ -1,3 +1,4 @@
+ feature/UC7-AddOnServiceSelection
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -42,6 +43,40 @@ class AddOnService {
     public AddOnService(String serviceName, double cost) {
         this.serviceName = serviceName;
         this.cost = cost;
+=======
+/**
+
+        * CLASS - RoomAllocationService
+
+Use Case 6: Reservation Confirmation & Room Allocation
+
+* Description:
+This class is responsible for confirming
+* booking requests and assigning rooms.
+
+* It ensures:
+        - Each room ID is unique
+- Inventory is updated immediately
+- No room is double-booked
+
+@version 6.0
+        */
+
+import java.util.*;
+
+class Reservation {
+
+    private String guestName;
+    private String roomType;
+
+    public Reservation(String guestName, String roomType) {
+        this.guestName = guestName;
+        this.roomType = roomType;
+    }
+
+    public String getGuestName() {
+        return guestName;
+ dev
     }
 
     /**
@@ -49,6 +84,22 @@ class AddOnService {
      */
     public String getServiceName() {
         return serviceName;
+    }
+}
+
+class RoomInventory {
+
+    private HashMap<String, Integer> inventory;
+
+    public RoomInventory() {
+        inventory = new HashMap<>();
+        inventory.put("Single Room", 2);
+        inventory.put("Double Room", 2);
+        inventory.put("Suite Room", 1);
+    }
+
+    public int getAvailability(String roomType) {
+        return inventory.getOrDefault(roomType, 0);
     }
 
     /**
